@@ -21,7 +21,7 @@ def main():
         def run(self):
             my_dict = {}
             my_dict["filename"] = "ball.png"
-            my_dict["filedata"] = data
+            my_dict["filedata"] = data          # data 作用范围在main函数内
             json_str = dumps(my_dict)
             self.cclient.send(json_str.encode("utf-8"))
             self.cclient.close()
@@ -35,8 +35,6 @@ def main():
     while True:
         client, addr = serve.accept()
         FileTransferHandler(client).start()
-
-
 
 if __name__ == "__main__":
     main()
