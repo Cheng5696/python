@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/Desktop/Python-100-Days-master (2)/Python-100-Days-master/.idea/Python-100-Days-master.iml" filepath="$USER_HOME$/Desktop/Python-100-Days-master (2)/Python-100-Days-master/.idea/Python-100-Days-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/django/hellodjango/.idea/hellodjango.iml" filepath="$PROJECT_DIR$/django/hellodjango/.idea/hellodjango.iml" />
       <module fileurl="file://$PROJECT_DIR$/../笔记/.idea/note.iml" filepath="$PROJECT_DIR$/../笔记/.idea/note.iml" />
       <module fileurl="file://$PROJECT_DIR$/../python学习资料/.idea/python学习资料.iml" filepath="$PROJECT_DIR$/../python学习资料/.idea/python学习资料.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python程序.iml" filepath="$PROJECT_DIR$/.idea/python程序.iml" />

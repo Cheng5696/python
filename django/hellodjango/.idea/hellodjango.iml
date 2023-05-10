@@ -4,9 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="note" />
-    <orderEntry type="module" module-name="Python-100-Days-master" />
-    <orderEntry type="module" module-name="python学习资料" />
-    <orderEntry type="module" module-name="hellodjango" />
   </component>
 </module>
