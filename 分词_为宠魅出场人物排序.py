@@ -1,6 +1,7 @@
 import jieba
 import tkinter as tk
 from tkinter import filedialog
+import json
 
 '''打开选择文件夹对话框'''
 root = tk.Tk()
@@ -20,5 +21,10 @@ with open(path,"r",encoding="utf-8") as f:
         else:
             count[i] = count.get(i,0) + 1
     li1 = list(count.items())
-    li1.sort(key=lambda x:x[1],reverse=True)
-    print(li1)
+    li1.sort(key=lambda x:x[1],reverse=False)
+
+
+    FolderPath = filedialog.askdirectory()
+    with open(FolderPath+"/结果.json","w") as f:
+        f.write(json.dumps(count, indent=2,ensure_ascii=False))
+        print(li1)
