@@ -39,7 +39,7 @@ def getFile():
 
 
 def table():
-    for i in data[1:10]:
+    for i in data[0:20]:
         x.append(i[0])
         y.append(i[1])
     bar = Bar()
